@@ -68,9 +68,14 @@ header {
 
 h1 {
     color: #4AB510;
+    font-size: 45px;
 }
 
 h2 {
+    color: #4AB510;
+}
+
+h3 {
     color: #4AB510
 }
 
@@ -94,7 +99,31 @@ section.home_index {
     }
 }
 
+section.mon_approche {
+    position: absolute;
+    margin-top: 1000px;
+    width: 100%;
 
+
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .sous_titre_approche {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .colonne_approche {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 100px;
+        margin-top: 50px;
+    }
+}
 
 .myButton {
     background-color: #3e9b0c;
@@ -119,8 +148,153 @@ section.home_index {
     }
 }
 
+.atelier_acompagnement {
+    position: absolute;
+    margin-top: 1800px;
+    width: 100%;
+    text-align: center;
+
+    .atelier img {
+        width: 40%;
+    }
+
+    .myButton1 {
+        background-color: #3e9b0c;
+        border-radius: 28px;
+        border: 1px solid #4ab510;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 16px 31px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #4ab510;
+
+        &:hover {
+            background-color: #5cbf2a;
+        }
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    .myButton2 {
+        background-color: #3e9b0c;
+        border-radius: 28px;
+        border: 1px solid #4ab510;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 16px 31px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #4ab510;
+
+        &:hover {
+            background-color: #5cbf2a;
+        }
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    .myButton3 {
+        background-color: #3e9b0c;
+        border-radius: 28px;
+        border: 1px solid #4ab510;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 16px 31px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #4ab510;
+
+        &:hover {
+            background-color: #5cbf2a;
+        }
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    .atelier_button {
+
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+    }
+}
+
+section.newsletter {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 2700px;
+    font-size: 30px;
+
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .sous_titre_newsletter {
+        margin-top: 100px;
+    }
+
+    input {
+        font-size: 50px;
+        border-radius: 30px;
+        margin-top: 100px;
+    }
+
+    ::placeholder {
+        font-size: 30px;
+    }
+
+    .myButton4 {
+        background-color: #3e9b0c;
+        border-radius: 28px;
+        border: 1px solid #4ab510;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 16px 31px;
+        margin-top: 100px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #4ab510;
+
+        &:hover {
+            background-color: #5cbf2a;
+        }
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+}
+
 
 footer {
     background: #4ab510;
     height: 394px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
