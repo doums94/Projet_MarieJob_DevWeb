@@ -66,6 +66,60 @@ header {
     }
 }
 
+h1 {
+    color: #4AB510;
+}
+
+h2 {
+    color: #4AB510
+}
+
+section.home_index {
+    position: absolute;
+    padding: 100px;
+    font-size: 25px;
+    display: flex;
+
+    .gros_titre {
+        margin-top: 300px;
+    }
+
+    .illustration_homme {
+        margin-left: 300px;
+        margin-top: 100px;
+    }
+
+    .button_home {
+        margin-left: 450px;
+    }
+}
+
+
+
+.myButton {
+    background-color: #3e9b0c;
+    border-radius: 28px;
+    border: 1px solid #4ab510;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #4ab510;
+
+    &:hover {
+        background-color: #5cbf2a;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+
 footer {
     background: #4ab510;
     height: 394px;
