@@ -74,9 +74,15 @@ header ul li a {
   font-weight: 500px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+  font-size: 23px;
 }
 
 header ul li a .sticky {
   color: black;
+}
+
+footer {
+  background: #4ab510;
+  height: 394px;
 }
 /*# sourceMappingURL=main.css.map */
