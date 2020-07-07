@@ -9,6 +9,21 @@ body {
     min-height: 200vh;
 }
 
+h1 {
+    color: #4AB510;
+    font-size: 45px;
+}
+
+h2 {
+    color: #4AB510;
+}
+
+h3 {
+    color: #4AB510
+}
+
+/**************************************************************** HEADER NAV***********************************************************************/
+
 header {
     position: fixed;
     top: 0;
@@ -66,18 +81,9 @@ header {
     }
 }
 
-h1 {
-    color: #4AB510;
-    font-size: 45px;
-}
+/**************************************************************** AND HEADER NAV***********************************************************************/
 
-h2 {
-    color: #4AB510;
-}
-
-h3 {
-    color: #4AB510
-}
+/********************************************************** SECTION HOME INDEX***********************************************************************/
 
 section.home_index {
     position: absolute;
@@ -98,6 +104,33 @@ section.home_index {
         margin-left: 450px;
     }
 }
+
+.myButton {
+    background-color: #3e9b0c;
+    border-radius: 28px;
+    border: 1px solid #4ab510;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #4ab510;
+
+    &:hover {
+        background-color: #5cbf2a;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+/************************************************************ SECTION AND HOME INDEX***********************************************************************/
+
+/**************************************************************** SECTION MON APPROCHE ********************************************************************/
 
 section.mon_approche {
     position: absolute;
@@ -125,28 +158,9 @@ section.mon_approche {
     }
 }
 
-.myButton {
-    background-color: #3e9b0c;
-    border-radius: 28px;
-    border: 1px solid #4ab510;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 17px;
-    padding: 16px 31px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #4ab510;
+/**************************************************************** SECTION END APPROCHE ********************************************************************/
 
-    &:hover {
-        background-color: #5cbf2a;
-    }
-
-    &:active {
-        position: relative;
-        top: 1px;
-    }
-}
+/******************************************************** SECTION ATELIER ACOMPAGNEMENT *******************************************************************/
 
 .atelier_acompagnement {
     position: absolute;
@@ -235,6 +249,10 @@ section.mon_approche {
     }
 }
 
+/******************************************************** SECTION END ATELIER ACOMPAGNEMENT *******************************************************************/
+
+/******************************************************************* SECTION NEWSLETTER ***********************************************************************/
+
 section.newsletter {
     position: absolute;
     width: 100%;
@@ -287,6 +305,9 @@ section.newsletter {
     }
 }
 
+/******************************************************************* SECTION END NEWSLETTER ***********************************************************************/
+
+/******************************************************************************* FOOTER ***************************************************************************/
 
 footer {
     background: #4ab510;
@@ -298,3 +319,5 @@ footer {
     font-size: 28px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/************************************************************************ END FOOTER *******************************************************************************/
