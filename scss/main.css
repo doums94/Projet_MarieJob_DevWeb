@@ -96,6 +96,7 @@ header ul li a .sticky {
 }
 
 /**************************************************************** AND HEADER NAV***********************************************************************/
+/***************************************************************** Page d'accueil *********************************************************************/
 /********************************************************** SECTION HOME INDEX***********************************************************************/
 section.home_index {
   position: absolute;
@@ -111,12 +112,12 @@ section.home_index .gros_titre {
 }
 
 section.home_index .illustration_homme {
-  margin-left: 300px;
+  margin-left: 210px;
   margin-top: 100px;
 }
 
 section.home_index .button_home {
-  margin-left: 450px;
+  margin-left: 355px;
 }
 
 .myButton {
@@ -348,4 +349,72 @@ footer {
 }
 
 /************************************************************************ END FOOTER *******************************************************************************/
+/***************************************************************** END Page d'accueil *********************************************************************/
+/************************************************************************ Page Marie *******************************************************************************/
+/***************************************************************** SECTION MON PARCOURS *******************************************************************************/
+section.mon_parcours {
+  position: absolute;
+  margin-top: 200px;
+}
+
+section.mon_parcours h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.mon_parcours .sous_mon_parcours {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.mon_parcours .mon_parcours_phototext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.mon_parcours .img_mon_parcours img {
+  height: 90%;
+  padding: 60px 0 0 100px;
+}
+
+section.mon_parcours .text_mon_parcours {
+  padding: 60px 300px 0 0;
+}
+
+/***************************************************************** SECTION END MON PARCOURS *******************************************************************************/
+/***************************************************************** SECTION MON EXPERIENCES *******************************************************************************/
+section.mon_experiances {
+  position: absolute;
+  margin-top: 1050px;
+}
+
+section.mon_experiances h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.mon_experiances .sous_mon_experiences {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.mon_experiances .mon_experiences_phototext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.mon_experiances .img_mon_experiences img {
+  height: 70%;
+  padding: 60px 100px 0 100px;
+}
+
+section.mon_experiances .text_mon_experiences {
+  padding: 60px 0 0 100px;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+/***************************************************************** SECTION END MON EXPERIENCES *******************************************************************************/
 /*# sourceMappingURL=main.css.map */
