@@ -5,9 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    min-height: 200vh;
-}
+body {}
 
 h1 {
     color: #4AB510;
@@ -399,9 +397,107 @@ section.mon_experiances {
     }
 
     .text_mon_experiences {
-        padding: 60px 0 0 100px;
+        padding: 60px 0 0 220px;
         align-content: flex-start;
     }
 }
 
 /***************************************************************** SECTION END MON EXPERIENCES *******************************************************************************/
+
+
+
+/******************************************************************************END Page Marie ********************************************************************************/
+
+
+
+/*************************************************************************** Page Sophrologue ********************************************************************************/
+
+
+
+/********************************************************************** SECTION LA SOPHROLOGIE *******************************************************************************/
+
+section.la_sophrologie {
+    position: absolute;
+    margin-top: 250px;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .sous_la_sophrologie {
+        margin-top: 50px;
+    }
+
+    .text_la_sophrologie {
+        margin-top: 50px;
+        padding: 0 150px 0 150px;
+    }
+}
+
+/********************************************************************** END SECTION LA SOPHROLOGIE ***************************************************************************/
+
+
+/******************************************************************** SECTION MOYEN DE LA SOPHROLOGIE ************************************************************************/
+
+section.moyen_de_la_sophrologie {
+    position: absolute;
+    margin-top: 580px;
+    padding: 10%;
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .colonne_la_sophrologie {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+    .controle {
+        padding: 0 10% 0 0;
+    }
+
+    .musculaire {
+        padding: 0 10% 0 0;
+    }
+}
+
+/******************************************************************* END SECTION MOYEN DE LA SOPHROLOGIE *********************************************************************/
+
+
+/******************************************************************** SECTION PRINCIPALES INDICATIONS ************************************************************************/
+
+
+section.principlales_indication {
+    position: absolute;
+    margin-top: 900px;
+    padding: 10%;
+    width: 100%;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .image_text_indication {
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+
+        p {
+            margin-top: 25px;
+        }
+    }
+}
+
+
+/********************************************************************END SECTION PRINCIPALES INDICATIONS *********************************************************************/
+
+
+
+/************************************************************************ END Page Sophrologue *******************************************************************************/
