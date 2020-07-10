@@ -141,15 +141,13 @@ section.mon_approche {
     margin-top: 1000px;
     width: 100%;
 
-
-
     h2 {
         font-size: 40px;
         text-align: center;
     }
 
     .sous_titre_approche {
-        margin-top: 50px;
+        margin-top: 30px;
         text-align: center;
     }
 
@@ -157,8 +155,9 @@ section.mon_approche {
         display: flex;
         justify-content: center;
         justify-content: space-around;
-        padding: 100px;
         margin-top: 50px;
+        padding: 0 10% 0 10%;
+
     }
 }
 
@@ -168,7 +167,7 @@ section.mon_approche {
 
 .atelier_acompagnement {
     position: absolute;
-    margin-top: 1800px;
+    margin-top: 1600px;
     width: 100%;
     text-align: center;
 
@@ -261,7 +260,7 @@ section.newsletter {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 2700px;
+    top: 2300px;
     font-size: 30px;
 
 
@@ -310,21 +309,6 @@ section.newsletter {
 }
 
 /******************************************************************* SECTION END NEWSLETTER ***********************************************************************/
-
-/******************************************************************************* FOOTER ***************************************************************************/
-
-footer {
-    background: #4ab510;
-    height: 394px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-size: 28px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/************************************************************************ END FOOTER *******************************************************************************/
 
 
 /***************************************************************** END Page d'accueil *********************************************************************/
@@ -375,7 +359,7 @@ section.mon_parcours {
 
 section.mon_experiances {
     position: absolute;
-    margin-top: 1050px;
+    margin-top: 950px;
 
     h2 {
         font-size: 40px;
@@ -498,6 +482,158 @@ section.principlales_indication {
 
 /********************************************************************END SECTION PRINCIPALES INDICATIONS *********************************************************************/
 
-
-
 /************************************************************************ END Page Sophrologue *******************************************************************************/
+
+
+
+/********************************************************************************* Page Ypnose *******************************************************************************/
+
+/***************************************************************************** SECTION HYPNOSE *******************************************************************************/
+
+section.hypnose {
+    position: absolute;
+    margin-top: 200px;
+
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .image_text {
+        display: flex;
+        margin-top: 50px;
+        padding: 0 10% 0 10%;
+
+        img {
+            height: 300px;
+            padding: 0 0 0 10%;
+        }
+
+        p {
+            padding: 0 10% 0 10%;
+        }
+    }
+}
+
+/***************************************************************************** END SECTION HYPNOSE *******************************************************************************/
+
+/************************************************************************ SECTION CONSCIENT ET INCONSCIENT ***********************************************************************/
+
+
+section.conscient_et_inconscient {
+    position: absolute;
+    margin-top: 650px;
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        padding: 0 10% 0 10%;
+        margin-top: 50px;
+    }
+}
+
+/********************************************************************** ENDSECTION CONSCIENT ET INCONSCIENT **********************************************************************/
+
+/***************************************************************************** SECTION CHIFFRES **********************************************************************************/
+
+section.chiffres {
+    position: absolute;
+    margin-top: 1100px;
+    width: 100%;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .chiffres_phototext {
+        display: flex;
+        padding: 0 10% 0 10%;
+        margin-top: 50px;
+
+        .text_chiffres {
+            margin-top: 150px;
+        }
+    }
+}
+
+/***************************************************************************** END SECTION CHIFFRES *******************************************************************************/
+
+/***************************************************************************** SECTION INDICATIONS **********************************************************************************/
+
+section.indications {
+    position: absolute;
+    margin-top: 1700px;
+    width: 100%;
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .image_text_indication {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 50px;
+        padding: 0 15% 0 15%;
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************* FOOTER ***************************************************************************/
+
+footer {
+    background: #4ab510;
+    height: 394px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/************************************************************************ END FOOTER *******************************************************************************/

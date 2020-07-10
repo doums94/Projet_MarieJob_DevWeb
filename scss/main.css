@@ -153,7 +153,7 @@ section.mon_approche h2 {
 }
 
 section.mon_approche .sous_titre_approche {
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -166,15 +166,15 @@ section.mon_approche .colonne_approche {
           justify-content: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 100px;
   margin-top: 50px;
+  padding: 0 10% 0 10%;
 }
 
 /**************************************************************** SECTION END APPROCHE ********************************************************************/
 /******************************************************** SECTION ATELIER ACOMPAGNEMENT *******************************************************************/
 .atelier_acompagnement {
   position: absolute;
-  margin-top: 1800px;
+  margin-top: 1600px;
   width: 100%;
   text-align: center;
 }
@@ -267,7 +267,7 @@ section.newsletter {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 2700px;
+  top: 2300px;
   font-size: 30px;
 }
 
@@ -327,24 +327,6 @@ section.newsletter .myButton4:active {
 }
 
 /******************************************************************* SECTION END NEWSLETTER ***********************************************************************/
-/******************************************************************************* FOOTER ***************************************************************************/
-footer {
-  background: #4ab510;
-  height: 394px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  font-size: 28px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/************************************************************************ END FOOTER *******************************************************************************/
 /***************************************************************** END Page d'accueil *********************************************************************/
 /************************************************************************ Page Marie *******************************************************************************/
 /***************************************************************** SECTION MON PARCOURS *******************************************************************************/
@@ -382,7 +364,7 @@ section.mon_parcours .text_mon_parcours {
 /***************************************************************** SECTION MON EXPERIENCES *******************************************************************************/
 section.mon_experiances {
   position: absolute;
-  margin-top: 1050px;
+  margin-top: 950px;
 }
 
 section.mon_experiances h2 {
@@ -496,4 +478,123 @@ section.principlales_indication .image_text_indication p {
 
 /********************************************************************END SECTION PRINCIPALES INDICATIONS *********************************************************************/
 /************************************************************************ END Page Sophrologue *******************************************************************************/
+/********************************************************************************* Page Ypnose *******************************************************************************/
+/***************************************************************************** SECTION HYPNOSE *******************************************************************************/
+section.hypnose {
+  position: absolute;
+  margin-top: 200px;
+}
+
+section.hypnose h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.hypnose .image_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  padding: 0 10% 0 10%;
+}
+
+section.hypnose .image_text img {
+  height: 300px;
+  padding: 0 0 0 10%;
+}
+
+section.hypnose .image_text p {
+  padding: 0 10% 0 10%;
+}
+
+/***************************************************************************** END SECTION HYPNOSE *******************************************************************************/
+/************************************************************************ SECTION CONSCIENT ET INCONSCIENT ***********************************************************************/
+section.conscient_et_inconscient {
+  position: absolute;
+  margin-top: 650px;
+}
+
+section.conscient_et_inconscient h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.conscient_et_inconscient p {
+  text-align: center;
+  padding: 0 10% 0 10%;
+  margin-top: 50px;
+}
+
+/********************************************************************** ENDSECTION CONSCIENT ET INCONSCIENT **********************************************************************/
+/***************************************************************************** SECTION CHIFFRES **********************************************************************************/
+section.chiffres {
+  position: absolute;
+  margin-top: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
+section.chiffres h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.chiffres .chiffres_phototext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10% 0 10%;
+  margin-top: 50px;
+}
+
+section.chiffres .chiffres_phototext .text_chiffres {
+  margin-top: 150px;
+}
+
+/***************************************************************************** END SECTION CHIFFRES *******************************************************************************/
+/***************************************************************************** SECTION INDICATIONS **********************************************************************************/
+section.indications {
+  position: absolute;
+  margin-top: 1700px;
+  width: 100%;
+}
+
+section.indications h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.indications .image_text_indication {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+  padding: 0 15% 0 15%;
+}
+
+section.indications .image_text_indication p {
+  margin-top: 10px;
+}
+
+/******************************************************************************* FOOTER ***************************************************************************/
+footer {
+  background: #4ab510;
+  height: 394px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 28px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/************************************************************************ END FOOTER *******************************************************************************/
 /*# sourceMappingURL=main.css.map */
