@@ -579,6 +579,105 @@ section.indications .image_text_indication p {
   margin-top: 10px;
 }
 
+/***************************************************************************** END SECTION INDICATIONS **********************************************************************************/
+/*********************************************************************************END Page Ypnose *******************************************************************************/
+/********************************************************************************* Page Seances *******************************************************************************/
+/********************************************************************************* SECTION SEANCES *******************************************************************************/
+section.les_seances {
+  position: absolute;
+  margin-top: 200px;
+}
+
+section.les_seances h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.les_seances h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+section.les_seances .deroulement {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 20% 0 20%;
+}
+
+section.les_seances .objectif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20% 0 20%;
+  margin-top: 40px;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.les_seances .objectif p {
+  margin-top: 20px;
+}
+
+/*********************************************************************************END SECTION SEANCES *******************************************************************************/
+/********************************************************************************* SECTION ACOMPAGNEMENT ****************************************************************************/
+section.acompagnement {
+  position: absolute;
+  margin-top: 750PX;
+  width: 100%;
+}
+
+section.acompagnement h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.acompagnement h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+section.acompagnement p {
+  text-align: center;
+  margin-top: 40px;
+}
+
+section.acompagnement .text_image_acompagnement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10% 0 10%;
+  margin-top: 5%;
+}
+
+section.acompagnement .text_image_acompagnement p {
+  padding: 0 10% 0 0;
+  margin-top: 9%;
+}
+
+section.acompagnement .img_acompagnement {
+  margin-right: 10%;
+}
+
+/*********************************************************************************END SECTION ACOMPAGNEMENT ****************************************************************************/
+/********************************************************************************* SECTION SEANCES SUIVANTES ****************************************************************************/
+section.seances_suivantes {
+  position: absolute;
+  margin-top: 1650px;
+  padding: 0 10% 0 10%;
+  text-align: center;
+}
+
+section.seances_suivantes .sous_seances_suivantes {
+  margin-top: 50px;
+}
+
+section.seances_suivantes p {
+  margin-top: 2%;
+}
+
+/******************************************************************************END SECTION SEANCES SUIVANTES ***************************************************************************/
+/**************************************************************************************End page Seances *********************************************************************************/
 /******************************************************************************* FOOTER ***************************************************************************/
 footer {
   background: #4ab510;
