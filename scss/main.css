@@ -677,7 +677,129 @@ section.seances_suivantes p {
 }
 
 /******************************************************************************END SECTION SEANCES SUIVANTES ***************************************************************************/
-/**************************************************************************************End page Seances *********************************************************************************/
+/**************************************************************************************End Page Seances *********************************************************************************/
+/**************************************************************************************Page Contact *************************************************************************************/
+/************************************************************************************ SECTION FORMULAIRE ********************************************************************************/
+.formulaire_de_contact {
+  position: absolute;
+  margin-top: 15%;
+  width: 100%;
+  padding: 0 20% 0 20%;
+}
+
+.formulaire_de_contact input[type=text],
+.formulaire_de_contact input[type=email],
+.formulaire_de_contact select,
+.formulaire_de_contact textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.formulaire_de_contact .myButton5 {
+  background-color: #3e9b0c;
+  border-radius: 28px;
+  border: 1px solid #4ab510;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  margin-top: 50px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #4ab510;
+  width: 100%;
+}
+
+.formulaire_de_contact .myButton5:hover {
+  background-color: #5cbf2a;
+}
+
+.formulaire_de_contact .myButton5:active {
+  position: relative;
+  top: 1px;
+}
+
+.formulaire_de_contact .input_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.formulaire_de_contact .input_contact .prenom {
+  margin-right: 5%;
+}
+
+/************************************************************************************END SECTION FORMULAIRE ********************************************************************************/
+/************************************************************************************ SECTION INFORMATIONS ********************************************************************************/
+section.informations {
+  position: absolute;
+  margin-top: 900px;
+  width: 100%;
+}
+
+section.informations h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section.informations .informations_phototext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+section.informations .informations_phototext .text_informations {
+  padding: 0 0 0 20%;
+  text-align: center;
+}
+
+section.informations .informations_phototext .text_informations p {
+  margin-top: 20px;
+}
+
+section.informations .informations_phototext img {
+  height: 50%;
+  margin-left: 10%;
+}
+
+section.informations .informations_phototext .myButton6 {
+  background-color: #3e9b0c;
+  border-radius: 28px;
+  border: 1px solid #4ab510;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  margin-top: 50px;
+  margin-left: 28%;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #4ab510;
+}
+
+section.informations .informations_phototext .myButton6:hover {
+  background-color: #5cbf2a;
+}
+
+section.informations .informations_phototext .myButton6:active {
+  position: relative;
+  top: 1px;
+}
+
+/*********************************************************************************END SECTION INFORMATIONS ****************************************************************************/
+/**************************************************************************************END Page Contact *******************************************************************************/
+/********************************************************************************* SECTION MESSAGE ENVOYER ****************************************************************************/
+/*********************************************************************************END SECTION MESSAGE ENVOYER **************************************************************************/
 /******************************************************************************* FOOTER ***************************************************************************/
 footer {
   background: #4ab510;

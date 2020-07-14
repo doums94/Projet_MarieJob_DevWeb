@@ -696,7 +696,146 @@ section.seances_suivantes {
 
 /******************************************************************************END SECTION SEANCES SUIVANTES ***************************************************************************/
 
-/**************************************************************************************End page Seances *********************************************************************************/
+/**************************************************************************************End Page Seances *********************************************************************************/
+
+
+
+/**************************************************************************************Page Contact *************************************************************************************/
+
+/************************************************************************************ SECTION FORMULAIRE ********************************************************************************/
+
+.formulaire_de_contact {
+    position: absolute;
+    margin-top: 15%;
+    width: 100%;
+    padding: 0 20% 0 20%;
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 50px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+    }
+
+    .myButton5 {
+        background-color: #3e9b0c;
+        border-radius: 28px;
+        border: 1px solid #4ab510;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 16px 31px;
+        margin-top: 50px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #4ab510;
+        width: 100%;
+
+        &:hover {
+            background-color: #5cbf2a;
+        }
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    .input_contact {
+        display: flex;
+
+        .prenom {
+            margin-right: 5%;
+        }
+    }
+
+}
+
+/************************************************************************************END SECTION FORMULAIRE ********************************************************************************/
+
+/************************************************************************************ SECTION INFORMATIONS ********************************************************************************/
+
+
+section.informations {
+    position: absolute;
+    margin-top: 900px;
+    width: 100%;
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .informations_phototext {
+        display: flex;
+
+        margin-top: 5%;
+
+        .text_informations {
+            padding: 0 0 0 20%;
+            text-align: center;
+
+            p {
+                margin-top: 20px;
+            }
+        }
+
+        img {
+            height: 50%;
+            margin-left: 10%;
+
+        }
+
+        .myButton6 {
+            background-color: #3e9b0c;
+            border-radius: 28px;
+            border: 1px solid #4ab510;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Arial;
+            font-size: 17px;
+            padding: 16px 31px;
+            margin-top: 50px;
+            margin-left: 28%;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #4ab510;
+
+
+
+            &:hover {
+                background-color: #5cbf2a;
+            }
+
+            &:active {
+                position: relative;
+                top: 1px;
+            }
+        }
+
+
+    }
+}
+
+/*********************************************************************************END SECTION INFORMATIONS ****************************************************************************/
+
+/**************************************************************************************END Page Contact *******************************************************************************/
+
+
+/********************************************************************************* SECTION MESSAGE ENVOYER ****************************************************************************/
+
+section.message_envoyer {}
+
+/*********************************************************************************END SECTION MESSAGE ENVOYER **************************************************************************/
+
 
 
 
